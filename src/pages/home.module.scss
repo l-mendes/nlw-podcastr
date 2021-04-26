@@ -171,3 +171,15 @@
     }
   }
 }
+
+
+@media (max-width: 767px) {
+  .homepage {
+    ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+}
